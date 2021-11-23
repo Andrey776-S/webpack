@@ -1,5 +1,6 @@
 .tech-block {
-
+  display: flex;
+  flex-direction: column;
     &__slide {
       display: flex;
       justify-content: space-between;
@@ -82,10 +83,5 @@
     &__icon {
       margin-right: 16px;
     }
-  }
-  
-  .class-overflowVisible {
-    overflow: visible;
-    max-height: none;
   }
   

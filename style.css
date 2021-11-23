@@ -7,7 +7,6 @@ html {
 body {
   position: relative;
   min-width: 320px;
-  /* overflow-x: hidden;*/
   font-family: TT Lakes, serif;
   background: #F8F8F8;
   padding: 0;
@@ -269,7 +268,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
   letter-spacing: -0.2px;
   color: #1B1C21; }
 
@@ -343,6 +341,34 @@ body {
   justify-content: center;
   margin-top: 16px; }
 
+.tech-block__text {
+  font-family: TT Lakes;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #1B1C21;
+  text-decoration: none;
+  align-self: flex-start;
+  margin: 16px; }
+
+.tech-block__btn {
+  align-self: flex-end;
+  padding: 16px; }
+
+.tech-block__btn-icon {
+  width: 40px;
+  height: 40px; }
+
+.button-show__icon {
+  margin-right: 16px; }
+
+.button-close__icon {
+  margin-right: 16px; }
+
+.class-overflowVisible {
+  overflow: visible;
+  max-height: none; }
+
 .title {
   background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
   border-top: 1px solid #D9FFF5; }
@@ -401,37 +427,9 @@ body {
   .tech-block2 {
     margin-left: 32px; } }
 
-.tech-block__text {
-  font-family: TT Lakes;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: -0.2px;
-  color: #1B1C21;
-  text-decoration: none;
-  align-self: flex-start;
-  margin: 16px; }
-
-.tech-block__btn {
-  align-self: flex-end;
-  padding: 16px; }
-
-.tech-block__btn-icon {
-  width: 40px;
-  height: 40px; }
-
 .tech-block2__buttons {
   margin-left: 24px;
   margin-bottom: 32px; }
-
-.button-show__icon {
-  margin-right: 16px; }
-
-.button-close__icon {
-  margin-right: 16px; }
-
-.class-overflowVisible {
-  overflow: visible;
-  max-height: none; }
 
 .service-title {
   background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);

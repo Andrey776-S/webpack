@@ -301,34 +301,34 @@ body {
   display: flex;
   margin: 24px auto 24px 24px; }
 
-.tech-block__slide {
+.tech-block {
   display: flex;
-  justify-content: space-between;
-  min-width: 224px;
-  min-height: 160px;
-  background: #FFFFFF;
-  border: 1px solid #EAEAEA;
-  box-sizing: border-box;
-  border-radius: 6px;
-  margin-top: 16px; }
-
-.tech-block__text {
-  font-family: TT Lakes;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: -0.2px;
-  color: #1B1C21;
-  text-decoration: none;
-  align-self: flex-start;
-  margin: 16px; }
-
-.tech-block__btn {
-  align-self: flex-end;
-  padding: 16px; }
-
-.tech-block__btn-icon {
-  width: 40px;
-  height: 40px; }
+  flex-direction: column; }
+  .tech-block__slide {
+    display: flex;
+    justify-content: space-between;
+    min-width: 224px;
+    min-height: 160px;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-top: 16px; }
+  .tech-block__text {
+    font-family: TT Lakes;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+    text-decoration: none;
+    align-self: flex-start;
+    margin: 16px; }
+  .tech-block__btn {
+    align-self: flex-end;
+    padding: 16px; }
+  .tech-block__btn-icon {
+    width: 40px;
+    height: 40px; }
 
 .swiper2 {
   width: 100%;
@@ -364,10 +364,6 @@ body {
 
 .button-close__icon {
   margin-right: 16px; }
-
-.class-overflowVisible {
-  overflow: visible;
-  max-height: none; }
 
 .title {
   background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
@@ -430,6 +426,10 @@ body {
 .tech-block2__buttons {
   margin-left: 24px;
   margin-bottom: 32px; }
+
+.class-overflowVisible {
+  overflow: visible;
+  max-height: none; }
 
 .service-title {
   background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);

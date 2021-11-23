@@ -1,0 +1,91 @@
+.tech-block {
+
+    &__slide {
+      display: flex;
+      justify-content: space-between;
+      min-width: 224px;
+      min-height: 160px;
+      background: #FFFFFF;
+      border: 1px solid #EAEAEA;
+      box-sizing: border-box;
+      border-radius: 6px;
+      margin-top: 16px;
+    }
+  
+    &__text {
+      font-family: TT Lakes;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      color: #1B1C21;
+      text-decoration: none;
+      align-self: flex-start;
+      margin: 16px;
+    }
+  
+    &__btn {
+      align-self: flex-end;
+      padding: 16px;
+    }
+  
+    &__btn-icon {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+  
+  .swiper2 {
+   
+    width: 100%;
+    min-height: 228px;
+    overflow-x: hidden;
+    justify-content: center;
+  }
+  .tech-block__pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+
+  .tech-block {
+    &__text {
+      font-family: TT Lakes;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      color: #1B1C21;
+      text-decoration: none;
+      align-self: flex-start;
+      margin: 16px;
+    }
+  
+    &__btn {
+      align-self: flex-end;
+      padding: 16px;
+    }
+  
+    &__btn-icon {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  .button-show {
+
+    &__icon {
+      margin-right: 16px;
+    }
+  }
+  .button-close {
+  
+    &__icon {
+      margin-right: 16px;
+    }
+  }
+  
+  .class-overflowVisible {
+    overflow: visible;
+    max-height: none;
+  }
+  

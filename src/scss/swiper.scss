@@ -1,0 +1,29 @@
+.swiper {
+    min-height: 154px;
+}
+
+.swiper-slide {
+    align-content: center;
+
+    width: 240px;
+    max-width: 240px;
+    height: 72px;
+    max-height: 72px;
+    padding: 16px;
+    margin-top: 16px;
+
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.swiper-slide,
+.swiper-slide a {
+    display: flex;
+}
+
+.slide__logo {
+    margin-right: auto;
+    max-width: 128px;
+}

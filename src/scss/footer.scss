@@ -1,0 +1,48 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  
+    &__developed {
+      display: flex;
+      text-decoration: none;
+      font-family: TT Lakes;
+      font-size: 14px;
+      line-height: 16px;
+      color: #7E7E82;
+      margin-left: 24px;
+      margin-top: 32px;
+  
+      mix-blend-mode: normal;
+      opacity: 0.72;
+    }
+  
+    &__politics {
+      display: flex;
+      text-decoration: none;
+      font-family: TT Lakes;
+      font-size: 14px;
+      line-height: 16px;
+      color: #7E7E82;
+      margin: 32px auto 0 auto;
+  
+      mix-blend-mode: normal;
+      opacity: 0.72;
+    }
+  
+    &__offer {
+      display: flex;
+      text-decoration: none;
+      text-align: end;
+      flex-shrink: 10;
+      font-family: TT Lakes;
+      font-size: 14px;
+      line-height: 16px;
+      color: #7E7E82;
+      margin-right: 24px;
+      margin-top: 32px;
+  
+      mix-blend-mode: normal;
+      opacity: 0.72;
+    }
+  }

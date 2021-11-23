@@ -1,0 +1,82 @@
+.slide__block {
+    display: flex;
+    align-content: center;
+
+    width: 240px;
+    height: 72px;
+    padding: 16px;
+    margin-right: 24px;
+    margin-bottom: 16px;
+
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+
+.slide__block a {
+    display: flex;
+}
+
+.slide__logo-icon {
+    max-width: 128px;
+}
+
+.button-show {
+    margin: 24px 0 24px 24px;
+
+}
+.button-text {
+    text-decoration: none;
+    font-family: TT Lakes;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    letter-spacing: -0.2px;
+
+    color: #1B1C21;
+
+}
+
+@media (min-width: 768px) {
+    .swiper {
+        display: none;
+    }
+    .main-block {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 24px 0 0 24px;
+        max-height: 180px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 767px) {
+    .swiper {
+        display: flex;
+    }
+    .main-block {
+        display: none;
+    }
+    .block,
+    .buttons {
+        display: none;
+    }
+}
+
+.button-close {
+    margin: 24px auto 24px 24px;
+    display: none;
+}
+
+.class-hidden {
+    display: none;
+}
+
+.class-show {
+    display: flex;
+    margin: 24px auto 24px 24px;
+}
